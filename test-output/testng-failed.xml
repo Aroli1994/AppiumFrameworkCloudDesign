@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.rahulshettyacademy.TestUtils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End to end framework test(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.rahulshettyacademy.eCommerce_tc_4_Hybrid">
+        <methods>
+          <include name="FillForm"/>
+          <include name="preSetUp"/>
+          <include name="configureAppium"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.rahulshettyacademy.eCommerce_tc_4_Hybrid -->
+    </classes>
+  </test> <!-- End to end framework test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
